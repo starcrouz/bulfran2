@@ -4,13 +4,12 @@ import React from 'react';
 const Exclusivites: React.FC = () => {
   const baseUrl = "https://stephane-rouilly.pages-perso.free.fr/";
   const images = [
-    "bulfran/exclusivite-avion.jpg",
+    "bulfran/exclusivite-tissu.jpg",
     "bulfran/exclusivite-bracelet.jpg",
     "bulfran/exclusivite-catacombes.jpg",
     "bulfran/exclusivite-coeur.jpg",
     "bulfran/exclusivite-notre-dame-de-paris.jpg",
-    "bulfran/exclusivite-sacre%20coeur.jpg",
-    "bulfran/exclusivite-tissu.jpg"
+    "bulfran/exclusivite-sacre%20coeur.jpg"
   ];
 
   return (

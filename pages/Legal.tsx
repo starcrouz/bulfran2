@@ -10,10 +10,10 @@ const Legal: React.FC = () => {
         <section>
           <h2 className="font-bold mb-4">Informations sur le propriétaire du site</h2>
           <p className="mb-4">
-            Le présent site www.bulfran.fr est la propriété de la société BULFRAN, EURL, inscrite au registre du commerce et des sociétés de Paris sous le numéro 484 765 284. N° de TVA intracommunautaire : FR 8448476528400019
+            Le présent site www.bulfran.fr est la propriété de la société BULFRAN, SARL, inscrite au registre du commerce et des sociétés de Paris sous le numéro 484 765 284. N° de TVA intracommunautaire : FR 8448476528400019
           </p>
           <p className="mb-4">
-            Adresse du siège social : BULFRAN, EURL 180, avenue de Choisy 75013 Paris<br />
+            Adresse du siège social : BULFRAN, SARL 180, avenue de Choisy 75013 Paris<br />
             Tél. : +33 9 50 29 38 06 (prix d'une communication locale en France métropolitaine)
           </p>
           <p className="mb-4">

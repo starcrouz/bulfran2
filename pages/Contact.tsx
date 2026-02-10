@@ -10,7 +10,7 @@ const Contact: React.FC = () => {
         <div>
           <h2 className="text-xl font-bold text-black mb-2 uppercase">Courrier :</h2>
           <p className="text-lg text-gray-800 font-medium">
-            BULFRAN, EURL <br />
+            BULFRAN, SARL <br />
             180, AVENUE DE CHOISY 75013 PARIS
           </p>
         </div>

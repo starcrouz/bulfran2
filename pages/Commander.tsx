@@ -47,7 +47,7 @@ const Commander: React.FC = () => {
         <section>
           <h2 className="font-bold text-xl mb-3 text-black">Délais de livraison</h2>
           <p>
-            Le délai de livraison habituel des magnets est d'un mois. Mais il varie en fonction de plusieurs critères : marchandises en stock ou en rupture de stock, fabrication sur mesure, moment de l'année, etc. Pour les autres types de produits les délais sont très variables. Nous vous en informerons au cas par cas.
+            Le délais de livraison varie entre un jour et un mois en fonction de plusieurs critères : marchandises en stock ou en rupture de stock, fabrication sur mesure, moment de l'année, etc. Pour les autres types de produits les délais sont très variables. Nous vous en informerons au cas par cas.
           </p>
         </section>
       </div>
