@@ -6,10 +6,14 @@ import { NAV_ITEMS } from '../constants';
 const Navbar: React.FC = () => {
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
 
+  const handleScrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <header className="fixed top-0 left-0 right-0 bg-gray-100 border-b border-gray-200 z-50">
       <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
-        <Link to="/" className="flex items-center">
+        <Link to="/" className="flex items-center" onClick={handleScrollToTop}>
           <img 
             src="https://stephane-rouilly.pages-perso.free.fr/bulfran/logo.jpg" 
             alt="BULFRAN" 
@@ -44,6 +48,7 @@ const Navbar: React.FC = () => {
                   <Link
                     to={item.path}
                     className="text-lg font-bold hover:text-blue-600 transition-colors py-4 flex items-center uppercase"
+                    onClick={item.path === '/' ? handleScrollToTop : undefined}
                   >
                     {item.label}
                   </Link>
